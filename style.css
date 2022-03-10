@@ -49,23 +49,12 @@ header ul li a:hover{
 	color: #fff;
 	
 }
-.active{
-	background-color: black;
-	color: #fff;
-}
 
-.banner img{
-	display: flex ;
-	justify-content: center;
+
+.banner {
 	width: 100%;
-}
-
-@media screen (max-width: 768px) {
-	header ul {
-		display: flex;
-		justify-content: center;
-	} 
-	header li {
-		flex-direction: column;
-	}
+	height: 100vh;
+	background-image: url(thegarage.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
 }
